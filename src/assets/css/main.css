@@ -122,7 +122,8 @@ input, select, textarea {
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			/* color: #333; */
+			color: #666;
 		}
 
 	h2 {
@@ -131,7 +132,8 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			color: #888;
+			/* color: #888; */
+			color: #000;
 		}
 
 			h2.alt strong {
@@ -2213,7 +2215,8 @@ input, select, textarea {
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					/* color: #fff; */
+					color: #666;
 					border-color: inherit;
 				}
 
@@ -2233,8 +2236,10 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				/* background-color: #81918E; */
+				/* background-color: #fde169; */
+				/* background-image: url("../../images/banner.jpg"); */
+				background-image: linear-gradient(to bottom right, #fff, #fde169);
 			}
 
 			#main > section.two {
@@ -2609,3 +2614,14 @@ input, select, textarea {
 				}
 
 	}
+
+#intro {
+	color: #666;
+	text-decoration-color: #666;
+}
+
+
+#intro h2 strong{
+	color: #666;
+	text-decoration-color: #666;
+}

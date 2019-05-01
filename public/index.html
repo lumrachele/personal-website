@@ -12,6 +12,14 @@
 		<link rel="stylesheet" href="../src/assets/css/main.css" />
 		<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+<!-- emailJS -->
+		<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+		<script type="text/javascript">
+		   (function(){
+		      emailjs.init("user_gGOHXbAb1PxJ22nXGrJ8p");
+		   })();
+		</script>
 	</head>
 	<body class="is-preload">
 		<div id="root"></div>
@@ -35,23 +43,23 @@
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li>
+								<!-- <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li> -->
 							</ul>
 						</nav>
 
 				</div>
 
-				<div class="bottom">
+				<!-- <div class="bottom">
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="http://twitter.com/lumrachele" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<! Social Icons -->
+						<!-- <ul class="icons"> -->
+							<!-- <li><a href="http://twitter.com/lumrachele" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
 							<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
-							<li><a href="http://www.github.com/lumrachele" class="icon fa-github"><span class="label">Github</span></a></li>
+							<!-- <li><a href="http://www.github.com/lumrachele" class="icon fa-github"><span class="label">Github</span></a></li> -->
 							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-				</div>
+							<!-- <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li> -->
+						<!-- </ul> -->
+				<!-- </div> -->
 			</div>
 
 		<!-- Main -->
@@ -59,15 +67,25 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-						<div class="container">
+						<div class="container"  id="intro">
 
 							<header>
-								<h2 class="alt"><strong>Hi, I'm Rachel Lum</strong>
+								<h2 class="alt">
+									<strong>Hey, I'm Rachel Lum</strong>
 									<br/>
 									Full Stack Sofware Engineer.
 								</h2>
 								<p>Proficient in Ruby, Ruby on Rails, Javascript, React, Redux, HTML, and CSS.</p>
 								<p>Passionate about health, fitness, dance, and breakfast food.</p>
+								<p>Contact me.</p>
+
+								<ul class="icons">
+									<li><a href="http://twitter.com/lumrachele" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+									<li><a href="http://www.github.com/lumrachele" class="icon fa-github"><span class="label">Github</span></a></li>
+									<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+									<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
 							</header>
 
 							<footer>
@@ -152,7 +170,7 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<!-- <section id="contact" class="four">
 						<div class="container">
 
 							<header>
@@ -161,11 +179,11 @@
 
 							<p>
 							Feel free to send me a message. I'll get back to you as soon as I can (usually within 24 hours).
-							</p>
+							</p> -->
 
 							<!-- abstract this form into a Component -->
 							<!-- research how to send an email without a post request to backend? -->
-							<form method="post" action="#">
+							<!-- <form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
 									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
@@ -176,7 +194,7 @@
 										<input type="submit" value="Send Message" />
 									</div>
 								</div>
-							</form>
+							</form> -->
 
 						</div>
 					</section>
