@@ -1,1 +1,256 @@
-Hello World
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Rachel Lum</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../src/assets/css/main.css" />
+		<link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+<!-- emailJS -->
+		<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+		<script type="text/javascript">
+		   (function(){
+		      emailjs.init("user_gGOHXbAb1PxJ22nXGrJ8p");
+		   })();
+		</script>
+	</head>
+	<body class="is-preload">
+		<div id="root"></div>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<!-- images imported from public/images folder -->
+							<span class="image avatar48"><img src="images/avatar1.jpg" /></span>
+							<h1 id="title">Rachel Lum</h1>
+							<p>Full Stack Software Engineer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
+								<!-- <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li> -->
+							</ul>
+						</nav>
+
+				</div>
+
+				<!-- <div class="bottom">
+
+					<! Social Icons -->
+						<!-- <ul class="icons"> -->
+							<!-- <li><a href="http://twitter.com/lumrachele" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<!-- <li><a href="http://www.github.com/lumrachele" class="icon fa-github"><span class="label">Github</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li> -->
+						<!-- </ul> -->
+				<!-- </div> -->
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container"  id="intro">
+
+							<header>
+
+										<div class="row">
+															<div class="col-4 col-12-mobile">
+															</div>
+											<div class="col-4 col-12-mobile item">
+												<img class="image fit" style="width: 300px; height:auto; transform: translateX(18%);"src="images/headshotful.JPG" alt="headshot" />
+											</div>
+											<div class="col-4 col-12-mobile">
+											</div>
+										</div>
+
+
+								<h2 class="alt">
+									<strong>Hey, I'm Rachel Lum</strong>
+									<br/>
+									Full Stack Sofware Engineer.
+								</h2>
+								<p>Proficient in Ruby, Ruby on Rails, Javascript, React, Redux, HTML, and CSS.</p>
+								<p>Passionate about health, fitness, dance, and breakfast food.</p>
+
+								<div id="contact">
+								<p>Contact me: rlum894@gmail.com</p>
+								<ul>
+								<a href=https://www.linkedin.com/in/rachel-lum style="color: #666;">Linked In</a> |
+								<a href=https://www.medium.com/@lumrachele style="color: #666;">Technical Blog</a>
+							</ul>
+
+								<ul class="icons">
+									<li><a href="http://www.github.com/lumrachele" class="icon fa-github"><span class="label">Github</span></a></li>
+									<li><a href="http://twitter.com/lumrachele" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+									<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+									<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</div>
+							</header>
+
+							<footer>
+								<h1><a href="#portfolio" style="color: #666;">Recent Works</a></h1>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Recent Works</h2>
+							</header>
+
+							<!-- <p>Check out my most recent projects.</p> -->
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/weegle_thumbnail.png" alt="weegle thumbnail" /></a>
+										<header>
+											<h3>Weegle</h3>
+											<p><a href="https://vimeo.com/329654271"/>Demo Video</a> | <a href="#" alt=""/>Github</a> </p>
+											<p>
+												<i>A charades-style interactive party game.</i>
+												React.js/ Redux Frontend, Ruby on Rails Backend API, Websockets/ Action Cable
+											</p>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/weworkout_thumbnail.png" alt="we workout thumbnail" /></a>
+										<header>
+											<h3>WeWorkout</h3>
+											<p><a href="https://vimeo.com/328025663"/>Demo Video</a> | <a href="https://github.com/lumrachele/we-workout"/>Github</a> </p>
+											<p>
+												<i>An easy solution for customizing your favorite workouts.</i>
+												Ruby on Rails, MVC Structure
+											</p>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/wetype_thumbnail.png" alt="we type thumbnail" /></a>
+										<header>
+											<h3>WeType</h3>
+											<p><a href=""/>Demo Video</a> | <a href="#" alt=""/>Github</a> </p>
+											<p>
+												<i>Test your speed-typing skills with quirky “dad jokes”.</i>
+												React.js Frontend, Ruby on Rails Backend API, <a href="https://icanhazdadjoke.com/api">Dad Joke API</a>
+											</p>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<!-- <div class="row"> -->
+							<!-- <div class="col-4 col-12-mobile">
+								<img class="image featured" style="width: 300px; height:auto;"src="images/walk.JPG" alt="headshot" />
+							</div>
+							<div class="col-4 col-12-mobile">
+								<img class="image featured" style="width: 300px; height:auto;"src="images/walk.JPG" alt="headshot" />
+							</div>
+							<div class="col-4 col-12-mobile">
+								<img class="image featured" style="width: 300px; height:auto;"src="images/walk.JPG" alt="headshot" />
+							</div> -->
+							<img class="image" style="width:80%; height:auto;" src="images/braids.jpg" alt="" />
+						<!-- </div> -->
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="" alt="" /></a> -->
+
+							<p>
+								Full stack web developer proficient in Ruby, Ruby on Rails, Javascript, React, and Redux, highly interested in creating a seamless user experience. My backgrounds in dance, fitness, and math drive my passion to learn the different languages we use to communicate, inclusive of written, verbal, or movement-based languages. This passion translates to learning coding languages through development to elicit apps that are both fluid in code and tailored to the wants and needs of a user.
+								<br/><br/>
+								I am ambitious, hardworking, and creative, always looking to learn more about tech and its place in the world and people around me. Key strengths include leadership, strong communication skills, training, collaboration, time management, and multitasking.
+							</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<!-- <section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>
+							Feel free to send me a message. I'll get back to you as soon as I can (usually within 24 hours).
+							</p> -->
+
+							<!-- abstract this form into a Component -->
+							<!-- research how to send an email without a post request to backend? -->
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Rachel Lum 2019. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
