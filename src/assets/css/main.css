@@ -2239,7 +2239,7 @@ input, select, textarea {
 				/* background-color: #81918E; */
 				/* background-color: #fde169; */
 				/* background-image: url("../../images/banner.jpg"); */
-				background-image: linear-gradient(to bottom right, #fff, #fde169);
+				/* background-image: linear-gradient(to bottom right, #fff, #fde169); */
 				background-image: url("../../images/keyboarddesk.jpg");
 			}
 
