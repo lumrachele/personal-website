@@ -2245,12 +2245,12 @@ input, select, textarea {
 
 			#main > section.two {
 				/* background-color: #f5fafa; */
-				background-image: linear-gradient(to top left, #fff, #fde169);
+				background-image: linear-gradient(to top left, #fff, #f5fafa);
 			}
 
 			#main > section.three {
 				/* background-color: #ecf1f1; */
-				background-image: linear-gradient(to bottom left, #fff, #fde169);
+				background-image: linear-gradient(to bottom left, #fff, #ecf1f1);
 			}
 
 			#main > section.four {
