@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="./src/assets/css/main.css" />
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- <script src="//data.feedmirror.com/embed.js"></script> -->
 		<!-- <link rel="stylesheet" href="../main.css" /> -->
 		<!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
 		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
@@ -43,7 +45,7 @@
 							<ul>
 								<li><a href="#top" id="top-link"><span class="icon fa-home">Intro</span></a></li>
 								<li><a href="#portfolio" id="portfolio-link"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#blog" id="blog-link"><span class="icon fa-user">Blog</span></a></li>
+								<li><a href="#blog" id="blog-link"><span class="icon fa-pencil">Blog</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon fa-user">About Me</span></a></li>
 								<!-- <li><a href="#contact" id="contact-link"><span class="icon fa-envelope">Contact</span></a></li> -->
 							</ul>
@@ -181,18 +183,19 @@
 
 						<div id="fm-medium-embed"></div>
 
-						<script src="//data.feedmirror.com/embed.js"></script>
-						<script>
-						  var fmSettings = {
-						    feedURL: 'https://data.feedmirror.com/-Lhvr9EAMXdSt-gSTUxT.json',
-						    integration: 'medium-embed',
-						    linkOutText: 'Read more',
-						    linkToMediumProfileText: 'Subscribe on Medium',
-						    postsCount: 3,
-						    element: 'fm-medium-embed'
-						  };
-						  feedmirror.initialize(fmSettings);
-						</script>
+							<script src="http://data.feedmirror.com/embed.js"></script>
+							<script>
+							  var fmSettings = {
+							    feedURL: 'https://data.feedmirror.com/-Lhvr9EAMXdSt-gSTUxT.json',
+							    integration: 'medium-embed',
+							    linkOutText: 'Read more',
+							    linkToMediumProfileText: 'Subscribe on Medium',
+							    postsCount: 2,
+							    element: 'fm-medium-embed'
+							  };
+							  feedmirror.initialize(fmSettings);
+							</script>
+
 
 					</div>
 				</section>
